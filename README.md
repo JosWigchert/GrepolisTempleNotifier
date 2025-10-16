@@ -15,3 +15,6 @@ To host your own version do the following:
 11. In vercel go to your project > Settings > Environment Variables and paste the contents of the .env file into the "create new" Client_Key... field
 12. Override the build command in vercel, go to your project > Settings > Build and Deployment and paste `npx prisma generate && nuxt build` into the `Build Command` field. (you may need to toggle the override button)
 13. Redeploy vercel
+
+
+Please dont put the .env with passwords in the repo
